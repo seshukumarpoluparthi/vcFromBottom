@@ -14,6 +14,15 @@
 		28AFEA2C21622AEB00F719B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AFEA2A21622AEB00F719B0 /* LaunchScreen.storyboard */; };
 		28AFEA3721622AEB00F719B0 /* vcFromBottomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA3621622AEB00F719B0 /* vcFromBottomTests.swift */; };
 		28AFEA4221622AEB00F719B0 /* vcFromBottomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA4121622AEB00F719B0 /* vcFromBottomUITests.swift */; };
+		28AFEA5721622B2200F719B0 /* BottomPopupDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA5121622B2200F719B0 /* BottomPopupDismissAnimator.swift */; };
+		28AFEA5821622B2200F719B0 /* BottomPopupDismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA5221622B2200F719B0 /* BottomPopupDismissInteractionController.swift */; };
+		28AFEA5921622B2200F719B0 /* BottomPopupPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA5321622B2200F719B0 /* BottomPopupPresentAnimator.swift */; };
+		28AFEA5A21622B2200F719B0 /* BottomPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA5421622B2200F719B0 /* BottomPopupPresentationController.swift */; };
+		28AFEA5B21622B2200F719B0 /* BottomPopupTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA5521622B2200F719B0 /* BottomPopupTransitionHandler.swift */; };
+		28AFEA5C21622B2200F719B0 /* BottomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA5621622B2200F719B0 /* BottomPopupViewController.swift */; };
+		28AFEA6121622B6300F719B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA6021622B6300F719B0 /* DetailViewController.swift */; };
+		28AFEA6321622B7700F719B0 /* InvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA6221622B7700F719B0 /* InvoiceViewController.swift */; };
+		28AFEA6521622B9300F719B0 /* InvoiceNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AFEA6421622B9300F719B0 /* InvoiceNC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		28AFEA3D21622AEB00F719B0 /* vcFromBottomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vcFromBottomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AFEA4121622AEB00F719B0 /* vcFromBottomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcFromBottomUITests.swift; sourceTree = "<group>"; };
 		28AFEA4321622AEB00F719B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AFEA5121622B2200F719B0 /* BottomPopupDismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissAnimator.swift; sourceTree = "<group>"; };
+		28AFEA5221622B2200F719B0 /* BottomPopupDismissInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissInteractionController.swift; sourceTree = "<group>"; };
+		28AFEA5321622B2200F719B0 /* BottomPopupPresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentAnimator.swift; sourceTree = "<group>"; };
+		28AFEA5421622B2200F719B0 /* BottomPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentationController.swift; sourceTree = "<group>"; };
+		28AFEA5521622B2200F719B0 /* BottomPopupTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupTransitionHandler.swift; sourceTree = "<group>"; };
+		28AFEA5621622B2200F719B0 /* BottomPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupViewController.swift; sourceTree = "<group>"; };
+		28AFEA6021622B6300F719B0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		28AFEA6221622B7700F719B0 /* InvoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceViewController.swift; sourceTree = "<group>"; };
+		28AFEA6421622B9300F719B0 /* InvoiceNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceNC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,9 @@
 		28AFEA2021622AE900F719B0 /* vcFromBottom */ = {
 			isa = PBXGroup;
 			children = (
+				28AFEA5D21622B3800F719B0 /* ViewControllers */,
+				28AFEA5021622B2200F719B0 /* BottomPopupController */,
+				28AFEA4F21622B0600F719B0 /* New Group */,
 				28AFEA2121622AE900F719B0 /* AppDelegate.swift */,
 				28AFEA2321622AE900F719B0 /* ViewController.swift */,
 				28AFEA2521622AE900F719B0 /* Main.storyboard */,
@@ -123,6 +144,36 @@
 				28AFEA4321622AEB00F719B0 /* Info.plist */,
 			);
 			path = vcFromBottomUITests;
+			sourceTree = "<group>";
+		};
+		28AFEA4F21622B0600F719B0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		28AFEA5021622B2200F719B0 /* BottomPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				28AFEA5121622B2200F719B0 /* BottomPopupDismissAnimator.swift */,
+				28AFEA5221622B2200F719B0 /* BottomPopupDismissInteractionController.swift */,
+				28AFEA5321622B2200F719B0 /* BottomPopupPresentAnimator.swift */,
+				28AFEA5421622B2200F719B0 /* BottomPopupPresentationController.swift */,
+				28AFEA5521622B2200F719B0 /* BottomPopupTransitionHandler.swift */,
+				28AFEA5621622B2200F719B0 /* BottomPopupViewController.swift */,
+			);
+			path = BottomPopupController;
+			sourceTree = "<group>";
+		};
+		28AFEA5D21622B3800F719B0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28AFEA6021622B6300F719B0 /* DetailViewController.swift */,
+				28AFEA6221622B7700F719B0 /* InvoiceViewController.swift */,
+				28AFEA6421622B9300F719B0 /* InvoiceNC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +308,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AFEA2421622AE900F719B0 /* ViewController.swift in Sources */,
+				28AFEA5B21622B2200F719B0 /* BottomPopupTransitionHandler.swift in Sources */,
+				28AFEA5C21622B2200F719B0 /* BottomPopupViewController.swift in Sources */,
+				28AFEA5821622B2200F719B0 /* BottomPopupDismissInteractionController.swift in Sources */,
+				28AFEA5721622B2200F719B0 /* BottomPopupDismissAnimator.swift in Sources */,
 				28AFEA2221622AE900F719B0 /* AppDelegate.swift in Sources */,
+				28AFEA6121622B6300F719B0 /* DetailViewController.swift in Sources */,
+				28AFEA5921622B2200F719B0 /* BottomPopupPresentAnimator.swift in Sources */,
+				28AFEA6521622B9300F719B0 /* InvoiceNC.swift in Sources */,
+				28AFEA6321622B7700F719B0 /* InvoiceViewController.swift in Sources */,
+				28AFEA5A21622B2200F719B0 /* BottomPopupPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
